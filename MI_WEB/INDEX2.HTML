@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COMPRAVENTA ORO GOLD</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(90deg, #d4af37, #b8860b);
+      padding: 20px;
+      text-align: center;
+      color: #111;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background: #222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #d4af37;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .btn {
+      background: #d4af37;
+      color: #111;
+      padding: 10px 20px;
+      margin-top: 10px;
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #fff;
+      color: #111;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .item {
+      background: #222;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(212,175,55,0.3);
+    }
+    .item img {
+      width: 100%;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .item img:hover {
+      transform: scale(1.05);
+    }
+    .item h3 {
+      color: #d4af37;
+      margin: 10px 0 5px;
+    }
+    footer {
+      background: #222;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 20px;
+    }
+    /* Estilos Lightbox */
+    #lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    #lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border: 3px solid #d4af37;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>💎 Compraventa Oro Gold 💎</h1>
+    <p>Convierte tus joyas en efectivo al instante</p>
+  </header>
+
+  <!-- MENU -->
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <!-- SERVICIOS -->
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <p>✔ Compra de oro al mejor precio</p>
+    <p>✔ Contratos sobre oro (5% y 7%)</p>
+    <p>✔ Venta de joyas 18K garantizadas</p>
+    <p>✔ Plan separe para tus joyas</p> 
+    <p>✔ Fabricación de joyas</p>
+    <p>✔ Reparación de joyas</p>
+    <p>✔ Sorteos y promociones exclusivas</p>
+    <a class="btn" href="https://wa.me/573235574005?text=Hola%20quiero%20cotizar%20mi%20oro" target="_blank">Vender ahora</a>
+  </section>
+
+  <!-- CATALOGO -->
+  <section id="catalogo">
+    <h2>Catálogo de Joyas</h2>
+    <div class="galeria">
+
+      <div class="item">
+        <img src="cadena1.jpg" alt="Cadena de oro 18K">
+        <h3>Cadenas 18K</h3>
+        <p>45 cm - 70 cm</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesa%20la%20Cadena%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+
+     <div class="item">
+        <img src="C2.jpg" alt="Cadena de oro 18K">
+        <h3>Cadenas 18K</h3>
+        <p>45 cm - 70 cm</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesa%20la%20Cadena%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+
+      <div class="item">
+        <img src="C3.jpg" alt="Cadena de oro 18K">
+        <h3>Cadenas 18K</h3>
+        <p>45 cm - 70 cm</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesa%20la%20Cadena%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+
+      <div class="item">
+        <img src="C4.jpg" alt="Cadena de oro 18K">
+        <h3>Cadenas 18K</h3>
+        <p>45 cm - 70 cm</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesa%20la%20Cadena%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+      
+      <div class="item">
+        <img src="C5.jpg" alt="Cadena de oro 18K">
+        <h3>Cadenas 18K</h3>
+        <p>45 cm - 70 cm</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesa%20la%20Cadena%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+       <div class="item">
+        <img src="C6.jpg" alt="Cadena de oro 18K">
+        <h3>Cadenas 18K</h3>
+        <p>45 cm - 70 cm</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesa%20la%20Cadena%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+
+      <div class="item">
+        <img src="C7.jpg" alt="Cadena de oro 18K">
+        <h3>Cadenas 18K</h3>
+        <p>45 cm - 70 cm</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesa%20la%20Cadena%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+
+       
+      <div class="item">
+        <img src="A1.jpg" alt="Anillo de oro 18K">
+        <h3>Anillo 18K</h3>
+        <p>Anillo caballero</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesa%20el%20Anillo%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+     <div class="item">
+        <img src="A2.jpg" alt="Anillo de oro 18K">
+        <h3>Anillo 18K</h3>
+        <p>Anillo dama</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesa%20el%20Anillo%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+      <div class="item">
+        <img src="A3.jpg" alt="Anillo de oro 18K">
+        <h3>Anillo 18K</h3>
+        <p>Anillo dama</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesa%20el%20Anillo%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+     <div class="item">
+        <img src="A4.jpg" alt="Anillo de oro 18K">
+        <h3>Argolla 18K</h3>
+        <p>Argollas</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesa%20el%20Anillo%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+
+      <div class="item">
+        <img src="AR1.jpg" alt="Aretes de oro 18K">
+        <h3>Aretes 18K</h3>
+        <p>Aretes</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesan%20los%20Aretes%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+      <div class="item">
+        <img src="AR2.jpg" alt="Aretes de oro 18K">
+        <h3>Aretes 18K</h3>
+        <p>Aretes</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesan%20los%20Aretes%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+      <div class="item">
+        <img src="AR3.jpg" alt="Aretes de oro 18K">
+        <h3>Aretes 18K</h3>
+        <p>Aretes</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesan%20los%20Aretes%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+ <div class="item">
+        <img src="P1.jpg" alt="Aretes de oro 18K">
+        <h3>Pulseras 18K</h3>
+        <p>Pulseras</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesan%20los%20Aretes%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+ <div class="item">
+        <img src="P2.jpg" alt="Aretes de oro 18K">
+        <h3>Pulseras 18K</h3>
+        <p>Pulseras</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesan%20los%20Aretes%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+ <div class="item">
+        <img src="P3.jpg" alt="Aretes de oro 18K">
+        <h3>Pulseras 18K</h3>
+        <p>Pulseras</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesan%20los%20Aretes%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+<div class="item">
+        <img src="P4.jpg" alt="Aretes de oro 18K">
+        <h3>Pulseras 18K</h3>
+        <p>Pulseras</p>
+        <p><b></b></p>
+        <a class="btn" href="https://wa.me/573235574005?text=Hola%20me%20interesan%20los%20Aretes%2018K" target="_blank">Comprar por WhatsApp</a>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros">
+    <h2>¿Quiénes somos?</h2>
+    <p>En <b>Compraventa Oro Gold</b> ofrecemos confianza, seguridad y el mejor precio por tu oro.</p>
+    <p>Ubicación: Al lado de Cotrafita de Bello.</p>
+
+    <h2>📍 Encuéntranos</h2>
+    <p>Estamos al lado de Cotrafita de Bello</p>
+
+    <!-- Google Maps Embed -->
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.8868028913187!2d-75.558356!3d6.338682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e468f6c5da6f7b5%3A0x7cbd9dbfd2a2eb5!2sCotrafita%20Bello!5e0!3m2!1ses!2sco!4v1694899999999"
+
+      width="100%" 
+      height="350" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📞 323 557 4005 – 604 428 7006</p>
+    <p>📍 Bello, Antioquia Carrera 50 N° 52-26 al lado del cotrafita.</p>
+    <a class="btn" href="https://wa.me/573235574005?text=Hola%20quiero%20más%20información%20sobre%20sus%20servicios" target="_blank">Escríbenos por WhatsApp</a>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <p>© 2025 Compraventa Oro Gold - Todos los derechos reservados</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox">
+    <img id="lightbox-img" src="">
+  </div>
+
+  <script>
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+
+    document.querySelectorAll(".item img").forEach(img => {
+      img.addEventListener("click", () => {
+        lightbox.style.display = "flex";
+        lightboxImg.src = img.src;
+      });
+    });
+
+    // Cerrar al hacer clic fuera de la imagen
+    lightbox.addEventListener("click", () => {
+      lightbox.style.display = "none";
+    });
+  </script>
+</body>
+</html>
